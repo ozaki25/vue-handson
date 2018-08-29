@@ -17,5 +17,10 @@ export default new Router({
       name: 'Pages',
       component: Pages,
     },
+    {
+      path: '/pages/:id',
+      name: 'Pages',
+      component: Pages,
+    },
   ],
 })
