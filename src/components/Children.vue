@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <p>{{ text }}</p>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ export default {
       msg: 'Welcome to Children',
     }
   },
+  props: ['text']
 }
 </script>
 

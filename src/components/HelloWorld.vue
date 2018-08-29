@@ -4,7 +4,7 @@
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <h3 v-show="show">{{ hello }}</h3>
-    <children />
+    <children :text="hello"></children>
   </div>
 </template>
 
