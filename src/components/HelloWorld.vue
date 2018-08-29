@@ -20,8 +20,8 @@ export default {
   methods: {
     onClickToggle: function () {
       this.show = !this.show
-    }
-  }
+    },
+  },
 }
 </script>
 
