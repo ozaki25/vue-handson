@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <button v-on:click="onClickToggle">Toggle</button>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <h3 v-show="show">{{ hello }}</h3>
@@ -14,6 +15,11 @@ export default {
       msg: 'Welcome to Your Vue.js App',
       hello: 'Hello World!',
       show: false,
+    }
+  },
+  methods: {
+    onClickToggle: function () {
+      this.show = !this.show
     }
   }
 }
