@@ -5,7 +5,8 @@
     <h2>Essential Links</h2>
     <h3 v-show="show">{{ hello }}</h3>
     <children :text="hello"></children>
-    <router-link to="/pages">Pages</router-link>
+    <input v-model="page">
+    <router-link :to="{ path: `/pages/${page}`}">Pages</router-link>
   </div>
 </template>
 
@@ -21,6 +22,7 @@ export default {
       msg: 'Welcome to Your Vue.js App',
       hello: 'Hello World!',
       show: false,
+      page: '1',
     }
   },
   methods: {
