@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>Pages</h1>
     <p v-show="isExistPage">{{ id }}ページ目</p>
+    <router-link to="/">Home</router-link>
   </div>
 </template>
 
