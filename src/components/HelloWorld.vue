@@ -4,12 +4,17 @@
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <h3 v-show="show">{{ hello }}</h3>
+    <children />
   </div>
 </template>
 
 <script>
+import Children from './Children'
 export default {
   name: 'HelloWorld',
+  components: {
+    Children,
+  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
