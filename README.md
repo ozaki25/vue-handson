@@ -2,6 +2,16 @@
 
 > A Vue.js project
 
+## Description
+
+### Text
+
+- https://speakerdeck.com/po3rin/vue-dot-jsru-men-vueclikaraspahurontoendokai-fa-woxue-bu
+
+### API
+
+- https://github.com/po3rin/introduction-vue/tree/master/node-mock-server
+
 ## Build Setup
 
 ``` bash
