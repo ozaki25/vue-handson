@@ -4,13 +4,21 @@
 
 ## Description
 
-### Text
+### Handson Text
 
 - https://speakerdeck.com/po3rin/vue-dot-jsru-men-vueclikaraspahurontoendokai-fa-woxue-bu
 
 ### API
 
 - https://github.com/po3rin/introduction-vue/tree/master/node-mock-server
+
+```
+git clone https://github.com/po3rin/introduction-vue.git
+cd introduction-vue/node-mock-server
+npm i
+npm start
+// running localhost:3000
+```
 
 ## Build Setup
 
